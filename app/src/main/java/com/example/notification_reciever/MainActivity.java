@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                    resultIntent,PendingIntent.FLAG_UPDATE_CURRENT);
 
             NotificationCompat.Builder builder=new NotificationCompat.Builder(this,"n")
-                    .setContentText("PreSchool").setSmallIcon(R.drawable.ic_notification)
+                    .setContentTitle("PreSchool").setSmallIcon(R.drawable.ic_notification)
                     .setContentText("Someone's Parent Arrived")
                     .setContentIntent(resultPendingIntent).setAutoCancel(true);
 
